@@ -18,6 +18,7 @@ export const zipCodeDatabase: Record<string, { city: string; state: string }> = 
   '90001': { city: 'Los Angeles', state: 'CA' },
   '90002': { city: 'Los Angeles', state: 'CA' },
   '90003': { city: 'Los Angeles', state: 'CA' },
+  '94110': { city: 'San Francisco', state: 'CA' },
   '94102': { city: 'San Francisco', state: 'CA' },
   '94103': { city: 'San Francisco', state: 'CA' },
   '94104': { city: 'San Francisco', state: 'CA' },
