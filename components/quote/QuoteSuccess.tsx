@@ -52,10 +52,7 @@ export default function QuoteSuccess({ quoteData }: QuoteSuccessProps) {
               Back to Home
             </Button>
           </Link>
-          <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-            <Phone className="mr-2 h-4 w-4" />
-            Call Us: (555) 123-4567
-          </Button>
+         
         </div>
 
         <div className="text-center text-sm text-gray-600">

@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Truck, MapPin, Clock, Shield, Star, Phone, Mail, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -28,10 +29,7 @@ export default function HomePage() {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/booking" className="text-gray-700 hover:text-blue-600 font-medium">Booking</Link>
             </nav>
-            <div className="flex items-center space-x-4">
-              <Phone className="h-5 w-5 text-blue-600" />
-              <span className="text-gray-700 font-medium">(555) 123-4567</span>
-            </div>
+            
           </div>
         </div>
       </header>
@@ -206,11 +204,11 @@ export default function HomePage() {
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  (555) 123-4567
+                  (346) 462-4428
                 </li>
                 <li className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  info@roadwaylogistics.com
+                  roadwaylogisticsllc18@gmail.com
                 </li>
                 <li className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
